@@ -1,4 +1,4 @@
-# ConquestApiSample
+# Conquest Api for Import Sample
 Samples for consume Conquest API
 
 
