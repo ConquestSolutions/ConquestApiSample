@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>Hello jQuery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="panel panel-default">
+        <div class="panel-heading">Set your API base url:</div>
+        <div class="panel-body">
+            <input type="text" class="form-control" id="api-base-url" placeholder="Api Base Url" value="https://localhost/ConquestApi/api/">
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Login</div>
+        <div class="panel-body">
+            <div id="login-form">
+                <form id="login-form">
+                    Select Connection
+                    <select id="connection-dropdownlist" class="form-control"></select>
+                    <p/><br/> Input your credential
+                    <input class="form-control" id="user-name" type="text" name="user" placeholder="Username" value="adtestandy">
+                    <input class="form-control" id="password" type="password" name="pass" placeholder="Password">
+                    <input id="btn-login" class="btn btn-default" type="submit" name="login" class="login loginmodal-submit" value="Login">
+                </form>
+            </div>
+            <p id="auth-code" style="color:green" />
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Import with file</div>
+        <div class="panel-body">
+            <div class="btn btn-default">
+                <input type="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" id="fileInput" />
+            </div>
+            <button id="btn-import" type="button" class="btn btn-labeled btn-default">Start Import</button>
+            <br/>
+            <p id="import-key" />
+            <p id="import-title" />
+            <p id="import-status" />
+            <p id="import-status-description" />
+            <p id="import-error" style="color:red" />
+            <div class="progress">
+                <div id="import-progress" class="progress-bar active" role="progressbar" style="width:0%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
