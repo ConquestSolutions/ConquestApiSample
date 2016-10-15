@@ -74,11 +74,10 @@ function RetriveImportState(key) {
         $('#import-status').text(state.Status)
         $('#import-status').text(state.StatusDescription)
 
-        if (state.Error != null){
+        if (state.Error != null) {
             $('#import-error').show();
             $('#import-error').text(state.Error);
-        }
-        else{
+        } else {
             $('#import-error').hide();
         }
 
