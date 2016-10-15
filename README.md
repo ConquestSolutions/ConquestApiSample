@@ -23,7 +23,7 @@ The successfull call returns a key for status fetching.
 
 Response status model:
 
-[code language="json"]
+```json
 { 
   "ProcessID": "string", 
   "ProcessType": 0,
@@ -40,4 +40,4 @@ Response status model:
   "CreatedBy": "string",
   "Created": "2016-10-15T12:59:43.080Z"
 }
-[/code]
+```
