@@ -1,5 +1,5 @@
 baseUrl = "https://localhost/ConquestApi/api/"
-connectionName = "1-marsh-CityOfConquest"
+connectionName = ""
 authToken = {
     access_token: "",
     token_type: "",
