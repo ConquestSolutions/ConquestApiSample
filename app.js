@@ -72,7 +72,7 @@ function RetriveImportState(key) {
         console.log(state);
         $('#import-title').text(state.Title)
         $('#import-status').text(state.Status)
-        $('#import-status').text(state.StatusDescription)
+        $('#import-status-description').text(state.StatusDescription)
 
         if (state.Error != null) {
             $('#import-error').show();
