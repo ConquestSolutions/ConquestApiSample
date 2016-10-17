@@ -1,23 +1,23 @@
 {
-  "name": "conquest-api-sample",
-  "version": "1.0.0",
-  "description": "Samples for consume Conquest API",
-  "main": "app.js",
-  "dependencies": {
-    "jasmine": "^2.5.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "live-server -p 8034 -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ConquestSolutions/ConquestApiSample.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ConquestSolutions/ConquestApiSample/issues"
-  },
-  "homepage": "https://github.com/ConquestSolutions/ConquestApiSample#readme"
+    "name": "conquest-api-sample",
+    "version": "1.0.0",
+    "description": "Samples for consume Conquest API",
+    "main": "app.js",
+    "dependencies": {
+        "jasmine": "^2.5.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "live-server --port=8034"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ConquestSolutions/ConquestApiSample.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ConquestSolutions/ConquestApiSample/issues"
+    },
+    "homepage": "https://github.com/ConquestSolutions/ConquestApiSample#readme"
 }
